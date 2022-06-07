@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Button } from './Button';
+import './Navbar.css';
+
 function Navbar() {
 
   const [click, setClick] = useState(false); 
@@ -41,6 +44,8 @@ function Navbar() {
       </Link>
       </li>
     </ul>
+    {/* If button is true return it */}
+    {button && Button}
         </div>
     </nav>
     </>
