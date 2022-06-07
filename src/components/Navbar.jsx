@@ -59,9 +59,9 @@ function Navbar() {
       </li>
     </ul>
     {/* If button is true return it */}
-    {button && Button}
+    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
-    </nav>
+      </nav>
     </>
   );
 }
