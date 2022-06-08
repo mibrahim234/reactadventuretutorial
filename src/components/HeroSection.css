@@ -1,3 +1,4 @@
+/* -1 so its doesnt cover other stuff */
 video {
     object-fit: cover;
     width: 100%;
@@ -7,6 +8,7 @@ video {
   }
   
   .hero-container {
+      /* Can do everything for background in one line */
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
