@@ -23,6 +23,7 @@ function Navbar() {
     showButton();
   }, []);
 
+  // invoking function, resize get show button to work for me
   window.addEventListener('resize', showButton);
 
   return (
