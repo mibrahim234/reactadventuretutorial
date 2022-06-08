@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
 import './Navbar.css';
@@ -19,6 +19,8 @@ function Navbar() {
     }
   };
 
+  // allows it to render one time and then doesnt show up anymore
+  // used for signup button to hide when resizing 
   useEffect(() => {
     showButton();
   }, []);
